@@ -216,3 +216,12 @@ print(f"Your weekly earning is: {hours*rate}")
 years_lived = int(input("Enter number of years you have lived: "))
 days = years_lived * 365
 print(f"you have lived for {60*60*24*days} seconds")
+
+for n in range(1, 6):
+    col1 = n
+    col2 = n ** 0
+    col3 = n ** 1
+    col4 = n ** 2
+    col5 = n ** 3
+
+    print(f"{col1:<3} {col2:<3} {col3:<3} {col4:<4} {col5}")
