@@ -189,23 +189,30 @@
 # print(f"Without parentheses: 2 + 3 * 4 = {result1}")
 # print(f"With parentheses: (2 + 3) * 4 = {result2}")
 
-age = 21
-height = 6.0
-cmp = 4j
+# age = 21
+# height = 6.0
+# cmp = 4j
 
-print("enter base of the triangle")
-base = float(input())
-print("now enter the height of the triangle")
-height = float(input())
+# print("enter base of the triangle")
+# base = float(input())
+# print("now enter the height of the triangle")
+# height = float(input())
 
-area = 0.5*base*height
-print(f"The area of the triangle is {area}")
+# area = 0.5*base*height
+# print(f"The area of the triangle is {area}")
 
-a, b, c = [int(x) for x in input("enter side a, side b, and side c of the triangle seperated by comma and a space to get the perimeter: ").split(", ")]
+# a, b, c = [int(x) for x in input("enter side a, side b, and side c of the triangle seperated by comma and a space to get the perimeter: ").split(", ")]
 
-print(f"the perimeter is: {a*b*c}")
+# print(f"the perimeter is: {a*b*c}")
 
-# Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
+# # Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
 
-length, width = [int(x) for x in input("Enter length and width of rectangle seperated by comma and a space: ").split(", ")]
-print(f"the area of the rectangle is: {length*width} and perimeter is: {2*(length+width)}")
+# length, width = [int(x) for x in input("Enter length and width of rectangle seperated by comma and a space: ").split(", ")]
+# print(f"the area of the rectangle is: {length*width} and perimeter is: {2*(length+width)}")
+
+hours, rate = [int(x) for x in input("enter hours and rate per hour seperated by comma and space: ").split(", ")]
+print(f"Your weekly earning is: {hours*rate}")
+
+years_lived = int(input("Enter number of years you have lived: "))
+days = years_lived * 365
+print(f"you have lived for {60*60*24*days} seconds")
