@@ -205,4 +205,7 @@ a, b, c = [int(x) for x in input("enter side a, side b, and side c of the triang
 
 print(f"the perimeter is: {a*b*c}")
 
+# Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
 
+length, width = [int(x) for x in input("Enter length and width of rectangle seperated by comma and a space: ").split(", ")]
+print(f"the area of the rectangle is: {length*width} and perimeter is: {2*(length+width)}")
