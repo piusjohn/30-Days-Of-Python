@@ -224,4 +224,4 @@ for n in range(1, 6):
     col4 = n ** 2
     col5 = n ** 3
 
-    print(f"{col1} {col2:<3} {col3:<3} {col4:<4} {col5}")
+    print(f"{col1} {col2:<3} {col3:<3} {col4} {col5}")
